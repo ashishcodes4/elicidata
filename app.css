@@ -76,7 +76,23 @@
 	border-radius: 50%;
 	margin-top: 47%;
 	margin-left: 47%;
-  }
+	}
+
+	
+.connecting-rod {
+	width: 200px;
+	height: 20px;
+	align-self: center;
+}
+
+.rod-2 {
+	width: 400px;
+	background-color: orange;
+	height: 20px;
+	position: relative;
+	bottom: 140px;
+	left: 160px;
+}
   
   
   @keyframes wheel-spin {
