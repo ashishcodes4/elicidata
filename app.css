@@ -1,0 +1,104 @@
+* {
+	box-sizing: border-box;
+  }
+  .container {
+	width: 900px;
+	margin: 0 auto;
+	padding: 30px;
+	background-color: #000;
+	height: 91.5vh;
+	padding-top: 15em;
+  }
+  
+  .animation-box {
+	display: flex;
+	flex-direction: row;
+  }
+  
+  .slider {
+	width: 300px;
+	height: 264px;
+	background-color: #000;
+	border: 10px solid cyan;
+	border-right: none;
+  }
+  
+  .piston {
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	width: 100px;
+	margin-left: 50px;
+	background-color: grey;
+	border: 1px solid #000;
+	border-collapse: collapse;
+	border-radius: 0;
+	animation: piston-slide infinite 2s linear;
+  }
+  
+  .front {
+	height: 100%;
+	width: 20px;
+	background-color: #eee;
+	border: 1px solid #000;
+  }
+  
+  .back {
+	height: 100%;
+	width: 20px;
+	background-color: #efefef;
+	border: 1px solid #000;
+  }
+  
+  .mid {
+	height: 100%;
+	width: 80px;
+	background-color: #8a8b8c;
+	border: 1px solid #000;
+  }
+  
+  .connecting-rod {
+	width: 200px;
+  }
+  
+  .circle {
+	width: 264px;
+	height: 264px;
+	background-color: azure;
+	border-radius: 50%;
+	animation: wheel-spin infinite 1s linear;
+  }
+  
+  .center-circle {
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	border-radius: 50%;
+	margin-top: 47%;
+	margin-left: 47%;
+  }
+  
+  
+  @keyframes wheel-spin {
+	  from {
+		transform: rotate(0deg);
+	  }
+	  to {
+		transform: rotate(360deg);
+	  }
+	}
+  
+  @keyframes piston-slide {
+	  0% {
+		  transform: translateX(0)
+	  }
+	  50% {
+		  transform: translateX(60px)
+	  }
+	  100% {
+		transform: translateX(0)
+	}
+  }
+  
+  
+  
