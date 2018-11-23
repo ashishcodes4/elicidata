@@ -29,8 +29,8 @@
 	flex-direction: row;
 	width: 100px;
 	margin-left: 50px;
-	background-color: grey;
-	border: 1px solid #000;
+	/* background-color: grey;
+	border: 1px solid #000; */
 	border-collapse: collapse;
 	border-radius: 0;
 	animation: piston-slide infinite 2s linear;
@@ -55,7 +55,15 @@
 	width: 80px;
 	background-color: #8a8b8c;
 	border: 1px solid #000;
-  }
+	}
+	
+	.hinge {
+		background-color: red;
+		width: 20px;
+		height: 10%;
+		align-self: center;
+
+	}
   
   .connecting-rod {
 	width: 200px;
@@ -90,7 +98,7 @@
 	background-color: orange;
 	height: 20px;
 	position: relative;
-	bottom: 140px;
+	bottom: 142px;
 	left: 160px;
 }
   
